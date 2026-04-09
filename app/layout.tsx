@@ -1,0 +1,23 @@
+import './globals.css';
+import type { Metadata } from 'next';
+import AnalyticsTracker from '@/components/AnalyticsTracker';
+
+export const metadata: Metadata = {
+  title: 'Christian Rainer Sassmann',
+  description: 'Software Engineer',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className="font-sans">
+        <AnalyticsTracker />
+        {children}
+      </body>
+    </html>
+  );
+}
