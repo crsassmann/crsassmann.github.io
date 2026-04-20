@@ -20,11 +20,11 @@ const Contact = () => {
 
   // Contact information
   const contactInfo = {
-    email: 'christianrainersassmann@outlook.com',
+    email: 'christiandsassmann92@outlook.com',
     phone: '+18737348962',
     discord: 'crsassmann',
     teams: 'https://teams.live.com/l/invite/FEAXswdluk6PpBPfQI?v=g1',
-    location: 'Tokyo, Japan'
+    location: 'Amsterdam, Netherlands'
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -175,7 +175,7 @@ const Contact = () => {
                     {/* <p className="text-muted-foreground break-all">{contactInfo.teams}</p> */}
                   </div>
                 </button>
-
+                {/*
                 <button
                   onClick={handleLocationClick}
                   className="flex items-center gap-3 w-full text-left p-3 rounded-xl border border-transparent hover:border-border hover:bg-muted/50 transition-colors group"
@@ -188,6 +188,7 @@ const Contact = () => {
                     <p className="text-muted-foreground">{contactInfo.location}</p>
                   </div>
                 </button>
+                */}
               </div>
             </div>
 

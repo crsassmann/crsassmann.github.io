@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
 
 export const metadata: Metadata = {
-  title: 'Christian Rainer Sassmann',
+  title: 'Christian Sassmann',
   description: 'Software Engineer',
 };
 
